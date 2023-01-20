@@ -1,0 +1,30 @@
+                                                                      BLOG
+
+
+                        The difference between window and document :-
+
+	•	In JavaScript, the window and document objects are two of the most  commonly used objects. They are both used to manipulate the web page, but they have different properties and methods.
+
+	•	The window object represents the browser window, and it is the top-level object in the JavaScript object hierarchy. It contains the web page's history, location, and      other information about the browser window. The window object also has properties and methods that allow you to manipulate the size and position of the window, as well as control the browser's history.
+
+	•	The document object, on the other hand, represents the web page itself. It contains the HTML and CSS of the web page, and it has properties and methods that allow you to manipulate the content and layout of the page. You can use the document object to select elements on the page, change their styles, or add new elements to the page.
+
+	•	In summary, the window object is used to control the browser window, while the document object is used to control the web page. While the document object is a property of the window object, it can also be accessed directly using the document keyword.
+                                    —————
+	⁃	The window object represents the browser window. The document object represents the HTML document loaded in that window. The window object has many useful properties like the location object and the setTimeout function.
+
+	⁃	When JavaScript is executed inside the browser, the window object is the JavaScript Global object. The document object is a property of the window object.
+
+	⁃	The window object represents the browser window, The document object represents the HTML document loaded in that window.. 
+        ⁃	The window object has many useful properties like the location object and the setTimeout function.
+
+	⁃	Since the window object is the Global object, ergo, it is the end of all scope chains, you don’t have to explicitly specify it when   accessing its properties… 
+	⁃	Instead of window.setTimeout, you can just write setTimeout Same goes with document… instead of window.document, you can just write                                                                            document… 
+
+The above blog can make you understand the window and document..
+
+
+
+
+
+
